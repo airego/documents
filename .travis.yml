@@ -7,7 +7,7 @@ python:
 
 install:
     - uname -a
-    - git clone https://github.com/dotnet/docfx/archive/v2.56.6.zip
+    - wget https://github.com/dotnet/docfx/archive/v2.56.6.zip
     - unzip v2.56.6
     - ls
     - pwd
